@@ -23,7 +23,7 @@ using namespace std;
 
 //leetcode
 
-int isPalindrome(int x) {
+bool isPalindrome(int x) {
     int temp = x;
     int revNum = 0;
 
