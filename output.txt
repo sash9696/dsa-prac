@@ -1,1 +1,1 @@
-No of digits in 7789 is 4
+Reverse 7789 is 9877

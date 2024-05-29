@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int count(int x){
+int reverse(int x)
+{
 
-    int cnt = 0;
+    int revNum = 0;
+    int lastDigit = 0;
 
-    while(x > 0){
+    while (x > 0)
+    {
 
+        lastDigit = x % 10;
         x = x / 10;
-        cnt ++;
+
+        revNum = (revNum * 10) + lastDigit;
     };
 
-    return cnt;
-
+    return revNum;
 }
 
 int main()
@@ -20,6 +24,6 @@ int main()
     int x;
     cin >> x;
 
-   int cnt =  count(x);
-   cout << "No of digits in " << x << " is " << cnt;
+    int revNum = reverse(x);
+    cout << "Reverse " << x << " is " << revNum;
 }
