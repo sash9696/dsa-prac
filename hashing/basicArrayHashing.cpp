@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//array hashing for indesxes less tahn 10 power 9
 
 int main(){
 
