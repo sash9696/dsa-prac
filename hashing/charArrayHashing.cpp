@@ -39,40 +39,78 @@ using namespace std;
 // }
 
 
-//for all chars if nothing is mentione din the question
-//total => 256
-int main(){
+//upercase letters
 
-    string s;
+// int main(){
 
-    cin >> s;
+//     string s;
 
-    cout<<s<<endl;
+//     cin >> s;
 
-    //precompute
-    int hash[256] = {0};
+//     cout<<s<<endl;
+
+//     //precompute
+//     int hash[26] = {0};
 
 
-    for (int i = 0; i < s.size(); i++){
-            hash[s[i]] ++;
+//     for (int i = 0; i < s.size(); i++){
+//             hash[s[i] - 'A'] ++;
 
-    }
+//     }
 
-    int q;
-    cin >> q;
+//     int q;
+//     cin >> q;
 
-    while(q--){
-        char ch;
-        cin >> ch;
+//     while(q--){
+//         char ch;
+//         cin >> ch;
 
-        //fetch
+//         //fetch
 
-        cout << hash[ch] << endl;
+//         cout << hash[ch - 'A'] << endl;
 
-    }
+//     }
 
     
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+//for all chars if nothing is mentione din the question
+//total => 256
+// int main(){
+
+//     string s;
+
+//     cin >> s;
+
+//     cout<<s<<endl;
+
+//     //precompute
+//     int hash[256] = {0};
+
+
+//     for (int i = 0; i < s.size(); i++){
+//             hash[s[i]] ++;
+
+//     }
+
+//     int q;
+//     cin >> q;
+
+//     while(q--){
+//         char ch;
+//         cin >> ch;
+
+//         //fetch
+
+//         cout << hash[ch] << endl;
+
+//     }
+
+    
+
+//     return 0;
+// }
 
