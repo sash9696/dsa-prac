@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//find min and swap with min and first
 void selection_sort(int arr[], int n){
 
     for(int i = 0; i <= n-2 ; i++){
