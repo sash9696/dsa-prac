@@ -1,1 +1,4 @@
+The elements in the vector are: 
+13 46 24 52 20 9 
+sorted vector: 
 9 13 20 24 46 52 
